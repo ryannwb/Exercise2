@@ -1,0 +1,41 @@
+.container{
+    
+    padding: 10px;
+    margin: 10px;
+    text-align: center
+}
+.content{
+width: 300px;
+border: 1px solid #555555;
+padding: 10px;
+border-radius: 10px;
+background: #333333
+}
+p{
+    margin: 2px;
+    text-align: left;
+}
+body{
+    color: #aaaaaa
+}
+h3{
+    text-align: right;
+    margin: 3px;
+    padding:3px;
+    border-bottom: 1px solid #aaaaaa;
+}
+.clear{
+    border-radius: 10px;
+    margin:5px;
+    text-align: right;
+}
+.clear button{
+    background: #555555;
+    border:1px solid #aaaaaa;
+    color: #aaaaaa
+}
+.textInput
+{
+    width: 100%;
+    margin:0px 2px;
+}

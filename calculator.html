@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <form name="pager">
+                <div class="content">
+                    <h3 class="judul">Pager Calculator</h3>
+                    <p>Insert Formula</p>
+                    <input type="text" id="formula" class="textInput" pattern="[0-9][+*/-]" onkeyup="calculate(document.getElementById('formula').value)"/>
+                    <p>Result</p>
+                    <input type="text" id="result" class="textInput"/>
+                    <div class="clear">
+                    <button type="button" id="clear" class="clear" onclick="document.getElementById('formula').value = 0;document.getElementById('result').value=0">Clear</button></div>
+                </div>
+            </form>
+        </div>
+    </body>
+    <script type="text/javascript" src="calculator.js"></script>
+</html>
